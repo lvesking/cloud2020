@@ -13,6 +13,12 @@ spring:
       #上述三个表示在github上读取master分支上config-dev.yml文件
       uri: http://localhost:3344    #配置中心地址
 
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
 eureka:
   client:
     service-url:

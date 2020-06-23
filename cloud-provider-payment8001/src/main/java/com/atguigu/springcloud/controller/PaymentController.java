@@ -87,4 +87,11 @@ public class PaymentController {
         return serverPort;
     }
 
+
+    @GetMapping(value = "/payment/zipkin")
+    public String getZipkin(){
+        return  "---------------------------------------我是分布式链路跟踪:   sleuth  zipkin   服务者";
+    }
+
+
 }
